@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A3CB05F14CD416800F6F13F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3CB05E14CD416800F6F13F /* ViewController.m */; };
+		6A3CB06314CD417B00F6F13F /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3CB06214CD417B00F6F13F /* MapViewController.m */; };
+		6A3CB06914CD62E500F6F13F /* SearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3CB06814CD62E500F6F13F /* SearchResultsViewController.m */; };
+		6A3CB07514D01D6800F6F13F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE19C8C14C985D00069CBC7 /* CoreLocation.framework */; };
+		6A3CB0A914D2B4CE00F6F13F /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3CB0A814D2B4CE00F6F13F /* LocationViewController.m */; };
+		6A5A130114E27FE40068AACA /* machinegun.caf in Resources */ = {isa = PBXBuildFile; fileRef = 6A5A130014E27FE40068AACA /* machinegun.caf */; };
+		6A5A130314E28C970068AACA /* funk.caf in Resources */ = {isa = PBXBuildFile; fileRef = 6A5A130214E28C970068AACA /* funk.caf */; };
+		6A5A130614E2A4DC0068AACA /* PersistentDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A130514E2A4DC0068AACA /* PersistentDataManager.m */; };
+		6A5A130814E2A8DE0068AACA /* carhorns.caf in Resources */ = {isa = PBXBuildFile; fileRef = 6A5A130714E2A8DE0068AACA /* carhorns.caf */; };
+		6A5A131914E4000D0068AACA /* world@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A5A131814E4000D0068AACA /* world@2x.png */; };
+		6A5A131C14E400320068AACA /* preferences@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A5A131B14E400320068AACA /* preferences@2x.png */; };
+		6A5A131F14E402B80068AACA /* preferences.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A5A131D14E402B80068AACA /* preferences.png */; };
+		6A5A132014E402B80068AACA /* world.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A5A131E14E402B80068AACA /* world.png */; };
+		6A5A132214E4F7EC0068AACA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5A132114E4F7EC0068AACA /* MediaPlayer.framework */; };
+		6A5A132414E512D20068AACA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5A132314E512D10068AACA /* AVFoundation.framework */; };
+		6A97748D14D69EA500E0E3D5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A97748C14D69EA500E0E3D5 /* icon.png */; };
+		6A97749014D69EA800E0E3D5 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A97748F14D69EA800E0E3D5 /* icon@2x.png */; };
+		6A97749214D6A4B200E0E3D5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A97749114D6A4B200E0E3D5 /* Default.png */; };
+		6A97749414D6A4B500E0E3D5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A97749314D6A4B500E0E3D5 /* Default@2x.png */; };
+		6A9774A614D7CC9300E0E3D5 /* LocationViewAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9774A514D7CC9300E0E3D5 /* LocationViewAnnotation.m */; };
+		6A9A48A014D9757C008820B1 /* AlarmSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9A489F14D9757C008820B1 /* AlarmSettingsViewController.m */; };
+		6A9A48A414D97C62008820B1 /* AlarmPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9A48A314D97C62008820B1 /* AlarmPickerViewController.m */; };
+		6A9A48A714D97D73008820B1 /* Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9A48A614D97D73008820B1 /* Sound.m */; };
+		6AA2359A14E562570015B2AD /* crash.caf in Resources */ = {isa = PBXBuildFile; fileRef = 6AA2359814E562570015B2AD /* crash.caf */; };
+		6AA2359B14E562570015B2AD /* digitalalarm.caf in Resources */ = {isa = PBXBuildFile; fileRef = 6AA2359914E562570015B2AD /* digitalalarm.caf */; };
+		6AA33C1F14C9A20D00988077 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA33C1E14C9A20D00988077 /* QuartzCore.framework */; };
+		6AA33C2114C9ACBA00988077 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA33C2014C9ACBA00988077 /* AudioToolbox.framework */; };
+		6AA33C2414CD401100988077 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AA33C2214CD401100988077 /* MainStoryboard_iPhone.storyboard */; };
+		6AB0ECB014C6CAA100308C47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB0ECAF14C6CAA100308C47 /* UIKit.framework */; };
+		6AB0ECB214C6CAA100308C47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB0ECB114C6CAA100308C47 /* Foundation.framework */; };
+		6AB0ECB414C6CAA100308C47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB0ECB314C6CAA100308C47 /* CoreGraphics.framework */; };
+		6AB0ECBA14C6CAA100308C47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AB0ECB814C6CAA100308C47 /* InfoPlist.strings */; };
+		6AB0ECBC14C6CAA100308C47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0ECBB14C6CAA100308C47 /* main.m */; };
+		6AB0ECC014C6CAA100308C47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0ECBF14C6CAA100308C47 /* AppDelegate.m */; };
+		6AB0ECD114C6CAA100308C47 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB0ECD014C6CAA100308C47 /* SenTestingKit.framework */; };
+		6AB0ECD214C6CAA100308C47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB0ECAF14C6CAA100308C47 /* UIKit.framework */; };
+		6AB0ECD314C6CAA100308C47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB0ECB114C6CAA100308C47 /* Foundation.framework */; };
+		6AB0ECDB14C6CAA100308C47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AB0ECD914C6CAA100308C47 /* InfoPlist.strings */; };
+		6AB0ECDE14C6CAA100308C47 /* GeoAlarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0ECDD14C6CAA100308C47 /* GeoAlarmTests.m */; };
+		6AB0ECEB14C6CABB00308C47 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0ECE814C6CABB00308C47 /* Location.m */; };
+		6AB0ECEC14C6CABB00308C47 /* LocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0ECEA14C6CABB00308C47 /* LocationService.m */; };
+		6AB0ECEE14C6CB9200308C47 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB0ECED14C6CB9200308C47 /* MapKit.framework */; };
+		6AE19C8B14C983E00069CBC7 /* myLocation.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 6AE19C8A14C983E00069CBC7 /* myLocation.gpx */; };
+		6AE19C8D14C985D00069CBC7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE19C8C14C985D00069CBC7 /* CoreLocation.framework */; };
+		D443AB9E14FB957A00304D5C /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D443AB9A14FB957A00304D5C /* libTestFlight.a */; };
+		D443AB9F14FB957B00304D5C /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = D443AB9B14FB957A00304D5C /* README.txt */; };
+		D443ABA014FB957B00304D5C /* release_notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = D443AB9C14FB957A00304D5C /* release_notes.txt */; };
+		D443ABA214FB95F000304D5C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D443ABA114FB95F000304D5C /* libz.dylib */; };
+		D4D8AC8D14EDAEF300DD7CA8 /* worldHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D8AC8B14EDAEF300DD7CA8 /* worldHighlighted.png */; };
+		D4D8AC8E14EDAEF300DD7CA8 /* worldHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D8AC8C14EDAEF300DD7CA8 /* worldHighlighted@2x.png */; };
+		D4D8AC9714EDB19400DD7CA8 /* MapLocationViewDefaultBackgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D8AC8F14EDB19400DD7CA8 /* MapLocationViewDefaultBackgroundImage.png */; };
+		D4D8AC9814EDB19400DD7CA8 /* MapLocationViewDefaultBackgroundImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D8AC9014EDB19400DD7CA8 /* MapLocationViewDefaultBackgroundImage@2x.png */; };
+		D4D8AC9914EDB19400DD7CA8 /* MapLocationViewHighlightedBackgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D8AC9114EDB19400DD7CA8 /* MapLocationViewHighlightedBackgroundImage.png */; };
+		D4D8AC9A14EDB19400DD7CA8 /* MapLocationViewHighlightedBackgroundImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D8AC9214EDB19400DD7CA8 /* MapLocationViewHighlightedBackgroundImage@2x.png */; };
+		D4D8AC9B14EDB19400DD7CA8 /* MapLocationViewLandscapeDefaultBackgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D8AC9314EDB19400DD7CA8 /* MapLocationViewLandscapeDefaultBackgroundImage.png */; };
+		D4D8AC9C14EDB19400DD7CA8 /* MapLocationViewLandscapeDefaultBackgroundImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D8AC9414EDB19400DD7CA8 /* MapLocationViewLandscapeDefaultBackgroundImage@2x.png */; };
+		D4D8AC9D14EDB19400DD7CA8 /* MapLocationViewLandscapeHighlightBackgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D8AC9514EDB19400DD7CA8 /* MapLocationViewLandscapeHighlightBackgroundImage.png */; };
+		D4D8AC9E14EDB19400DD7CA8 /* MapLocationViewLandscapeHighlightedBackgroundImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D8AC9614EDB19400DD7CA8 /* MapLocationViewLandscapeHighlightedBackgroundImage@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AB0ECD414C6CAA100308C47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AB0ECA214C6CAA100308C47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AB0ECAA14C6CAA100308C47;
+			remoteInfo = GeoAlarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A3CB05E14CD416800F6F13F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6A3CB06114CD417B00F6F13F /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		6A3CB06214CD417B00F6F13F /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		6A3CB06814CD62E500F6F13F /* SearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultsViewController.m; sourceTree = "<group>"; };
+		6A3CB0A714D2B4CE00F6F13F /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
+		6A3CB0A814D2B4CE00F6F13F /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
+		6A5A130014E27FE40068AACA /* machinegun.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = machinegun.caf; path = ../machinegun.caf; sourceTree = "<group>"; };
+		6A5A130214E28C970068AACA /* funk.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = funk.caf; sourceTree = "<group>"; };
+		6A5A130514E2A4DC0068AACA /* PersistentDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistentDataManager.m; sourceTree = "<group>"; };
+		6A5A130714E2A8DE0068AACA /* carhorns.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = carhorns.caf; sourceTree = "<group>"; };
+		6A5A131814E4000D0068AACA /* world@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world@2x.png"; sourceTree = "<group>"; };
+		6A5A131B14E400320068AACA /* preferences@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "preferences@2x.png"; sourceTree = "<group>"; };
+		6A5A131D14E402B80068AACA /* preferences.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preferences.png; sourceTree = "<group>"; };
+		6A5A131E14E402B80068AACA /* world.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = world.png; sourceTree = "<group>"; };
+		6A5A132114E4F7EC0068AACA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6A5A132314E512D10068AACA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6A97748C14D69EA500E0E3D5 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		6A97748F14D69EA800E0E3D5 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
+		6A97749114D6A4B200E0E3D5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		6A97749314D6A4B500E0E3D5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		6A9774A414D7CC9300E0E3D5 /* LocationViewAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewAnnotation.h; sourceTree = "<group>"; };
+		6A9774A514D7CC9300E0E3D5 /* LocationViewAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewAnnotation.m; sourceTree = "<group>"; };
+		6A9A489E14D9757C008820B1 /* AlarmSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmSettingsViewController.h; sourceTree = "<group>"; };
+		6A9A489F14D9757C008820B1 /* AlarmSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmSettingsViewController.m; sourceTree = "<group>"; };
+		6A9A48A214D97C62008820B1 /* AlarmPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmPickerViewController.h; sourceTree = "<group>"; };
+		6A9A48A314D97C62008820B1 /* AlarmPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmPickerViewController.m; sourceTree = "<group>"; };
+		6A9A48A514D97D73008820B1 /* Sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sound.h; sourceTree = "<group>"; };
+		6A9A48A614D97D73008820B1 /* Sound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sound.m; sourceTree = "<group>"; };
+		6AA2359814E562570015B2AD /* crash.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = crash.caf; sourceTree = "<group>"; };
+		6AA2359914E562570015B2AD /* digitalalarm.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = digitalalarm.caf; sourceTree = "<group>"; };
+		6AA33C1E14C9A20D00988077 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6AA33C2014C9ACBA00988077 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6AA33C2314CD401100988077 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		6AA81C3114DAD9C900AD557D /* PersistentDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistentDataManager.h; sourceTree = "<group>"; };
+		6AB0ECAB14C6CAA100308C47 /* GeoAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB0ECAF14C6CAA100308C47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6AB0ECB114C6CAA100308C47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6AB0ECB314C6CAA100308C47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6AB0ECB714C6CAA100308C47 /* GeoAlarm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoAlarm-Info.plist"; sourceTree = "<group>"; };
+		6AB0ECB914C6CAA100308C47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6AB0ECBB14C6CAA100308C47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6AB0ECBD14C6CAA100308C47 /* GeoAlarm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeoAlarm-Prefix.pch"; sourceTree = "<group>"; };
+		6AB0ECBE14C6CAA100308C47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6AB0ECBF14C6CAA100308C47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6AB0ECC714C6CAA100308C47 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6AB0ECCF14C6CAA100308C47 /* GeoAlarmTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoAlarmTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB0ECD014C6CAA100308C47 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6AB0ECD814C6CAA100308C47 /* GeoAlarmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoAlarmTests-Info.plist"; sourceTree = "<group>"; };
+		6AB0ECDA14C6CAA100308C47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6AB0ECDC14C6CAA100308C47 /* GeoAlarmTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoAlarmTests.h; sourceTree = "<group>"; };
+		6AB0ECDD14C6CAA100308C47 /* GeoAlarmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoAlarmTests.m; sourceTree = "<group>"; };
+		6AB0ECE714C6CABB00308C47 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Location.h; path = ../Location.h; sourceTree = "<group>"; };
+		6AB0ECE814C6CABB00308C47 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Location.m; path = ../Location.m; sourceTree = "<group>"; };
+		6AB0ECE914C6CABB00308C47 /* LocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationService.h; path = ../LocationService.h; sourceTree = "<group>"; };
+		6AB0ECEA14C6CABB00308C47 /* LocationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationService.m; path = ../LocationService.m; sourceTree = "<group>"; };
+		6AB0ECED14C6CB9200308C47 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6AE19C7714C964660069CBC7 /* SearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultsViewController.h; sourceTree = "<group>"; };
+		6AE19C8A14C983E00069CBC7 /* myLocation.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = myLocation.gpx; sourceTree = "<group>"; };
+		6AE19C8C14C985D00069CBC7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D443AB9A14FB957A00304D5C /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		D443AB9B14FB957A00304D5C /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		D443AB9C14FB957A00304D5C /* release_notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.txt; sourceTree = "<group>"; };
+		D443AB9D14FB957A00304D5C /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		D443ABA114FB95F000304D5C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		D4D8AC8B14EDAEF300DD7CA8 /* worldHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldHighlighted.png; sourceTree = "<group>"; };
+		D4D8AC8C14EDAEF300DD7CA8 /* worldHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "worldHighlighted@2x.png"; sourceTree = "<group>"; };
+		D4D8AC8F14EDB19400DD7CA8 /* MapLocationViewDefaultBackgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapLocationViewDefaultBackgroundImage.png; sourceTree = "<group>"; };
+		D4D8AC9014EDB19400DD7CA8 /* MapLocationViewDefaultBackgroundImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MapLocationViewDefaultBackgroundImage@2x.png"; sourceTree = "<group>"; };
+		D4D8AC9114EDB19400DD7CA8 /* MapLocationViewHighlightedBackgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapLocationViewHighlightedBackgroundImage.png; sourceTree = "<group>"; };
+		D4D8AC9214EDB19400DD7CA8 /* MapLocationViewHighlightedBackgroundImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MapLocationViewHighlightedBackgroundImage@2x.png"; sourceTree = "<group>"; };
+		D4D8AC9314EDB19400DD7CA8 /* MapLocationViewLandscapeDefaultBackgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapLocationViewLandscapeDefaultBackgroundImage.png; sourceTree = "<group>"; };
+		D4D8AC9414EDB19400DD7CA8 /* MapLocationViewLandscapeDefaultBackgroundImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MapLocationViewLandscapeDefaultBackgroundImage@2x.png"; sourceTree = "<group>"; };
+		D4D8AC9514EDB19400DD7CA8 /* MapLocationViewLandscapeHighlightBackgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapLocationViewLandscapeHighlightBackgroundImage.png; sourceTree = "<group>"; };
+		D4D8AC9614EDB19400DD7CA8 /* MapLocationViewLandscapeHighlightedBackgroundImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MapLocationViewLandscapeHighlightedBackgroundImage@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AB0ECA814C6CAA100308C47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D443ABA214FB95F000304D5C /* libz.dylib in Frameworks */,
+				6A5A132414E512D20068AACA /* AVFoundation.framework in Frameworks */,
+				6A5A132214E4F7EC0068AACA /* MediaPlayer.framework in Frameworks */,
+				6AA33C2114C9ACBA00988077 /* AudioToolbox.framework in Frameworks */,
+				6AA33C1F14C9A20D00988077 /* QuartzCore.framework in Frameworks */,
+				6AE19C8D14C985D00069CBC7 /* CoreLocation.framework in Frameworks */,
+				6AB0ECEE14C6CB9200308C47 /* MapKit.framework in Frameworks */,
+				6AB0ECB014C6CAA100308C47 /* UIKit.framework in Frameworks */,
+				6AB0ECB214C6CAA100308C47 /* Foundation.framework in Frameworks */,
+				6AB0ECB414C6CAA100308C47 /* CoreGraphics.framework in Frameworks */,
+				D443AB9E14FB957A00304D5C /* libTestFlight.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AB0ECCB14C6CAA100308C47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3CB07514D01D6800F6F13F /* CoreLocation.framework in Frameworks */,
+				6AB0ECD114C6CAA100308C47 /* SenTestingKit.framework in Frameworks */,
+				6AB0ECD214C6CAA100308C47 /* UIKit.framework in Frameworks */,
+				6AB0ECD314C6CAA100308C47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A5A130414E28D080068AACA /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6AA2359814E562570015B2AD /* crash.caf */,
+				6AA2359914E562570015B2AD /* digitalalarm.caf */,
+				6A5A130714E2A8DE0068AACA /* carhorns.caf */,
+				6A5A130214E28C970068AACA /* funk.caf */,
+				6A5A130014E27FE40068AACA /* machinegun.caf */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		6A5A131A14E400180068AACA /* Bar icons */ = {
+			isa = PBXGroup;
+			children = (
+				6A5A131D14E402B80068AACA /* preferences.png */,
+				6A5A131B14E400320068AACA /* preferences@2x.png */,
+			);
+			name = "Bar icons";
+			sourceTree = "<group>";
+		};
+		6AA81C3914DBE39000AD557D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6AB0ECBE14C6CAA100308C47 /* AppDelegate.h */,
+				6AB0ECBF14C6CAA100308C47 /* AppDelegate.m */,
+				6AB0ECC714C6CAA100308C47 /* ViewController.h */,
+				6A3CB05E14CD416800F6F13F /* ViewController.m */,
+				6AE19C7714C964660069CBC7 /* SearchResultsViewController.h */,
+				6A3CB06814CD62E500F6F13F /* SearchResultsViewController.m */,
+				6A3CB06114CD417B00F6F13F /* MapViewController.h */,
+				6A3CB06214CD417B00F6F13F /* MapViewController.m */,
+				6A3CB0A714D2B4CE00F6F13F /* LocationViewController.h */,
+				6A3CB0A814D2B4CE00F6F13F /* LocationViewController.m */,
+				6A9A48A214D97C62008820B1 /* AlarmPickerViewController.h */,
+				6A9A48A314D97C62008820B1 /* AlarmPickerViewController.m */,
+				6A9A489E14D9757C008820B1 /* AlarmSettingsViewController.h */,
+				6A9A489F14D9757C008820B1 /* AlarmSettingsViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6AB0ECA014C6CAA100308C47 = {
+			isa = PBXGroup;
+			children = (
+				D443ABA114FB95F000304D5C /* libz.dylib */,
+				D443AB9914FB957A00304D5C /* TestFlightSDK0.8.3 */,
+				6AB0ECB514C6CAA100308C47 /* GeoAlarm */,
+				6AB0ECD614C6CAA100308C47 /* GeoAlarmTests */,
+				6AB0ECAE14C6CAA100308C47 /* Frameworks */,
+				6AB0ECAC14C6CAA100308C47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AB0ECAC14C6CAA100308C47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AB0ECAB14C6CAA100308C47 /* GeoAlarm.app */,
+				6AB0ECCF14C6CAA100308C47 /* GeoAlarmTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AB0ECAE14C6CAA100308C47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A5A132314E512D10068AACA /* AVFoundation.framework */,
+				6A5A132114E4F7EC0068AACA /* MediaPlayer.framework */,
+				6AA33C2014C9ACBA00988077 /* AudioToolbox.framework */,
+				6AA33C1E14C9A20D00988077 /* QuartzCore.framework */,
+				6AE19C8C14C985D00069CBC7 /* CoreLocation.framework */,
+				6AB0ECED14C6CB9200308C47 /* MapKit.framework */,
+				6AB0ECAF14C6CAA100308C47 /* UIKit.framework */,
+				6AB0ECB114C6CAA100308C47 /* Foundation.framework */,
+				6AB0ECB314C6CAA100308C47 /* CoreGraphics.framework */,
+				6AB0ECD014C6CAA100308C47 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6AB0ECB514C6CAA100308C47 /* GeoAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				6AA81C3914DBE39000AD557D /* Controllers */,
+				6AF4076E14DAB0F6008D0047 /* Models */,
+				6AF4076C14DAB0C4008D0047 /* Views */,
+				6AB0ECB614C6CAA100308C47 /* Supporting Files */,
+			);
+			path = GeoAlarm;
+			sourceTree = "<group>";
+		};
+		6AB0ECB614C6CAA100308C47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D461D95114ED534A00365EAD /* Images */,
+				6A5A131A14E400180068AACA /* Bar icons */,
+				6A5A130414E28D080068AACA /* Sounds */,
+				6AE19C8A14C983E00069CBC7 /* myLocation.gpx */,
+				6A97749314D6A4B500E0E3D5 /* Default@2x.png */,
+				6A97749114D6A4B200E0E3D5 /* Default.png */,
+				6A97748F14D69EA800E0E3D5 /* icon@2x.png */,
+				6A97748C14D69EA500E0E3D5 /* icon.png */,
+				6AB0ECB714C6CAA100308C47 /* GeoAlarm-Info.plist */,
+				6AB0ECB814C6CAA100308C47 /* InfoPlist.strings */,
+				6AB0ECBB14C6CAA100308C47 /* main.m */,
+				6AB0ECBD14C6CAA100308C47 /* GeoAlarm-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AB0ECD614C6CAA100308C47 /* GeoAlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AB0ECDC14C6CAA100308C47 /* GeoAlarmTests.h */,
+				6AB0ECDD14C6CAA100308C47 /* GeoAlarmTests.m */,
+				6AB0ECD714C6CAA100308C47 /* Supporting Files */,
+			);
+			path = GeoAlarmTests;
+			sourceTree = "<group>";
+		};
+		6AB0ECD714C6CAA100308C47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AB0ECD814C6CAA100308C47 /* GeoAlarmTests-Info.plist */,
+				6AB0ECD914C6CAA100308C47 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AF4076C14DAB0C4008D0047 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6A9774A414D7CC9300E0E3D5 /* LocationViewAnnotation.h */,
+				6A9774A514D7CC9300E0E3D5 /* LocationViewAnnotation.m */,
+				6AA33C2214CD401100988077 /* MainStoryboard_iPhone.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6AF4076E14DAB0F6008D0047 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6AA81C3114DAD9C900AD557D /* PersistentDataManager.h */,
+				6A5A130514E2A4DC0068AACA /* PersistentDataManager.m */,
+				6AB0ECE914C6CABB00308C47 /* LocationService.h */,
+				6AB0ECEA14C6CABB00308C47 /* LocationService.m */,
+				6AF4076F14DAB177008D0047 /* VO */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		6AF4076F14DAB177008D0047 /* VO */ = {
+			isa = PBXGroup;
+			children = (
+				6AB0ECE714C6CABB00308C47 /* Location.h */,
+				6AB0ECE814C6CABB00308C47 /* Location.m */,
+				6A9A48A514D97D73008820B1 /* Sound.h */,
+				6A9A48A614D97D73008820B1 /* Sound.m */,
+			);
+			name = VO;
+			sourceTree = "<group>";
+		};
+		D443AB9914FB957A00304D5C /* TestFlightSDK0.8.3 */ = {
+			isa = PBXGroup;
+			children = (
+				D443AB9A14FB957A00304D5C /* libTestFlight.a */,
+				D443AB9B14FB957A00304D5C /* README.txt */,
+				D443AB9C14FB957A00304D5C /* release_notes.txt */,
+				D443AB9D14FB957A00304D5C /* TestFlight.h */,
+			);
+			path = TestFlightSDK0.8.3;
+			sourceTree = "<group>";
+		};
+		D461D95114ED534A00365EAD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D4D8AC8F14EDB19400DD7CA8 /* MapLocationViewDefaultBackgroundImage.png */,
+				D4D8AC9014EDB19400DD7CA8 /* MapLocationViewDefaultBackgroundImage@2x.png */,
+				D4D8AC9114EDB19400DD7CA8 /* MapLocationViewHighlightedBackgroundImage.png */,
+				D4D8AC9214EDB19400DD7CA8 /* MapLocationViewHighlightedBackgroundImage@2x.png */,
+				D4D8AC9314EDB19400DD7CA8 /* MapLocationViewLandscapeDefaultBackgroundImage.png */,
+				D4D8AC9414EDB19400DD7CA8 /* MapLocationViewLandscapeDefaultBackgroundImage@2x.png */,
+				D4D8AC9514EDB19400DD7CA8 /* MapLocationViewLandscapeHighlightBackgroundImage.png */,
+				D4D8AC9614EDB19400DD7CA8 /* MapLocationViewLandscapeHighlightedBackgroundImage@2x.png */,
+				D4D8AC8B14EDAEF300DD7CA8 /* worldHighlighted.png */,
+				D4D8AC8C14EDAEF300DD7CA8 /* worldHighlighted@2x.png */,
+				6A5A131E14E402B80068AACA /* world.png */,
+				6A5A131814E4000D0068AACA /* world@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AB0ECAA14C6CAA100308C47 /* GeoAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AB0ECE114C6CAA100308C47 /* Build configuration list for PBXNativeTarget "GeoAlarm" */;
+			buildPhases = (
+				6AB0ECA714C6CAA100308C47 /* Sources */,
+				6AB0ECA814C6CAA100308C47 /* Frameworks */,
+				6AB0ECA914C6CAA100308C47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoAlarm;
+			productName = GeoAlarm;
+			productReference = 6AB0ECAB14C6CAA100308C47 /* GeoAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AB0ECCE14C6CAA100308C47 /* GeoAlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AB0ECE414C6CAA100308C47 /* Build configuration list for PBXNativeTarget "GeoAlarmTests" */;
+			buildPhases = (
+				6AB0ECCA14C6CAA100308C47 /* Sources */,
+				6AB0ECCB14C6CAA100308C47 /* Frameworks */,
+				6AB0ECCC14C6CAA100308C47 /* Resources */,
+				6AB0ECCD14C6CAA100308C47 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AB0ECD514C6CAA100308C47 /* PBXTargetDependency */,
+			);
+			name = GeoAlarmTests;
+			productName = GeoAlarmTests;
+			productReference = 6AB0ECCF14C6CAA100308C47 /* GeoAlarmTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AB0ECA214C6CAA100308C47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = flashpatric;
+			};
+			buildConfigurationList = 6AB0ECA514C6CAA100308C47 /* Build configuration list for PBXProject "GeoAlarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6AB0ECA014C6CAA100308C47;
+			productRefGroup = 6AB0ECAC14C6CAA100308C47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AB0ECAA14C6CAA100308C47 /* GeoAlarm */,
+				6AB0ECCE14C6CAA100308C47 /* GeoAlarmTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AB0ECA914C6CAA100308C47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB0ECBA14C6CAA100308C47 /* InfoPlist.strings in Resources */,
+				6AE19C8B14C983E00069CBC7 /* myLocation.gpx in Resources */,
+				6AA33C2414CD401100988077 /* MainStoryboard_iPhone.storyboard in Resources */,
+				6A97748D14D69EA500E0E3D5 /* icon.png in Resources */,
+				6A97749014D69EA800E0E3D5 /* icon@2x.png in Resources */,
+				6A97749214D6A4B200E0E3D5 /* Default.png in Resources */,
+				6A97749414D6A4B500E0E3D5 /* Default@2x.png in Resources */,
+				6A5A130114E27FE40068AACA /* machinegun.caf in Resources */,
+				6A5A130314E28C970068AACA /* funk.caf in Resources */,
+				6A5A130814E2A8DE0068AACA /* carhorns.caf in Resources */,
+				6A5A131914E4000D0068AACA /* world@2x.png in Resources */,
+				6A5A131C14E400320068AACA /* preferences@2x.png in Resources */,
+				6A5A131F14E402B80068AACA /* preferences.png in Resources */,
+				6A5A132014E402B80068AACA /* world.png in Resources */,
+				6AA2359A14E562570015B2AD /* crash.caf in Resources */,
+				6AA2359B14E562570015B2AD /* digitalalarm.caf in Resources */,
+				D4D8AC8D14EDAEF300DD7CA8 /* worldHighlighted.png in Resources */,
+				D4D8AC8E14EDAEF300DD7CA8 /* worldHighlighted@2x.png in Resources */,
+				D4D8AC9714EDB19400DD7CA8 /* MapLocationViewDefaultBackgroundImage.png in Resources */,
+				D4D8AC9814EDB19400DD7CA8 /* MapLocationViewDefaultBackgroundImage@2x.png in Resources */,
+				D4D8AC9914EDB19400DD7CA8 /* MapLocationViewHighlightedBackgroundImage.png in Resources */,
+				D4D8AC9A14EDB19400DD7CA8 /* MapLocationViewHighlightedBackgroundImage@2x.png in Resources */,
+				D4D8AC9B14EDB19400DD7CA8 /* MapLocationViewLandscapeDefaultBackgroundImage.png in Resources */,
+				D4D8AC9C14EDB19400DD7CA8 /* MapLocationViewLandscapeDefaultBackgroundImage@2x.png in Resources */,
+				D4D8AC9D14EDB19400DD7CA8 /* MapLocationViewLandscapeHighlightBackgroundImage.png in Resources */,
+				D4D8AC9E14EDB19400DD7CA8 /* MapLocationViewLandscapeHighlightedBackgroundImage@2x.png in Resources */,
+				D443AB9F14FB957B00304D5C /* README.txt in Resources */,
+				D443ABA014FB957B00304D5C /* release_notes.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AB0ECCC14C6CAA100308C47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB0ECDB14C6CAA100308C47 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6AB0ECCD14C6CAA100308C47 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AB0ECA714C6CAA100308C47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB0ECBC14C6CAA100308C47 /* main.m in Sources */,
+				6AB0ECC014C6CAA100308C47 /* AppDelegate.m in Sources */,
+				6AB0ECEB14C6CABB00308C47 /* Location.m in Sources */,
+				6AB0ECEC14C6CABB00308C47 /* LocationService.m in Sources */,
+				6A3CB05F14CD416800F6F13F /* ViewController.m in Sources */,
+				6A3CB06314CD417B00F6F13F /* MapViewController.m in Sources */,
+				6A3CB06914CD62E500F6F13F /* SearchResultsViewController.m in Sources */,
+				6A3CB0A914D2B4CE00F6F13F /* LocationViewController.m in Sources */,
+				6A9774A614D7CC9300E0E3D5 /* LocationViewAnnotation.m in Sources */,
+				6A9A48A014D9757C008820B1 /* AlarmSettingsViewController.m in Sources */,
+				6A9A48A414D97C62008820B1 /* AlarmPickerViewController.m in Sources */,
+				6A9A48A714D97D73008820B1 /* Sound.m in Sources */,
+				6A5A130614E2A4DC0068AACA /* PersistentDataManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AB0ECCA14C6CAA100308C47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB0ECDE14C6CAA100308C47 /* GeoAlarmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AB0ECD514C6CAA100308C47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AB0ECAA14C6CAA100308C47 /* GeoAlarm */;
+			targetProxy = 6AB0ECD414C6CAA100308C47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6AA33C2214CD401100988077 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AA33C2314CD401100988077 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		6AB0ECB814C6CAA100308C47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AB0ECB914C6CAA100308C47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6AB0ECD914C6CAA100308C47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AB0ECDA14C6CAA100308C47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A97749614D6AE5C00E0E3D5 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = GeoAlarm.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc";
+		};
+		6A97749714D6AE5C00E0E3D5 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kanmalmo AB";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoAlarm/GeoAlarm-Prefix.pch";
+				INFOPLIST_FILE = "GeoAlarm/GeoAlarm-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TestFlightSDK0.8.3\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "799358F0-0304-43CC-843C-7BADC8C9C684";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
+		};
+		6A97749814D6AE5C00E0E3D5 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GeoAlarm.app/GeoAlarm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoAlarm/GeoAlarm-Prefix.pch";
+				INFOPLIST_FILE = "GeoAlarmTests/GeoAlarmTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = "Ad Hoc";
+		};
+		6AB0ECDF14C6CAA100308C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6AB0ECE014C6CAA100308C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AB0ECE214C6CAA100308C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Patrik Jonsson (ZGG76J2728)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoAlarm/GeoAlarm-Prefix.pch";
+				INFOPLIST_FILE = "GeoAlarm/GeoAlarm-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TestFlightSDK0.8.3\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "69FBB8FD-D9D7-48E5-9487-57250C41DC39";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6AB0ECE314C6CAA100308C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Patrik Jonsson (ZGG76J2728)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoAlarm/GeoAlarm-Prefix.pch";
+				INFOPLIST_FILE = "GeoAlarm/GeoAlarm-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TestFlightSDK0.8.3\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "69FBB8FD-D9D7-48E5-9487-57250C41DC39";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6AB0ECE514C6CAA100308C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GeoAlarm.app/GeoAlarm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoAlarm/GeoAlarm-Prefix.pch";
+				INFOPLIST_FILE = "GeoAlarmTests/GeoAlarmTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6AB0ECE614C6CAA100308C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GeoAlarm.app/GeoAlarm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoAlarm/GeoAlarm-Prefix.pch";
+				INFOPLIST_FILE = "GeoAlarmTests/GeoAlarmTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AB0ECA514C6CAA100308C47 /* Build configuration list for PBXProject "GeoAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AB0ECDF14C6CAA100308C47 /* Debug */,
+				6AB0ECE014C6CAA100308C47 /* Release */,
+				6A97749614D6AE5C00E0E3D5 /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AB0ECE114C6CAA100308C47 /* Build configuration list for PBXNativeTarget "GeoAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AB0ECE214C6CAA100308C47 /* Debug */,
+				6AB0ECE314C6CAA100308C47 /* Release */,
+				6A97749714D6AE5C00E0E3D5 /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AB0ECE414C6CAA100308C47 /* Build configuration list for PBXNativeTarget "GeoAlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AB0ECE514C6CAA100308C47 /* Debug */,
+				6AB0ECE614C6CAA100308C47 /* Release */,
+				6A97749814D6AE5C00E0E3D5 /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AB0ECA214C6CAA100308C47 /* Project object */;
+}
