@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F8FD843156C277400FF1B27 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F8FD842156C277400FF1B27 /* appicon.png */; };
+		4F8FD846156C277700FF1B27 /* appicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F8FD845156C277700FF1B27 /* appicon@2x.png */; };
 		6A3CB05F14CD416800F6F13F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3CB05E14CD416800F6F13F /* ViewController.m */; };
 		6A3CB06314CD417B00F6F13F /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3CB06214CD417B00F6F13F /* MapViewController.m */; };
 		6A3CB06914CD62E500F6F13F /* SearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3CB06814CD62E500F6F13F /* SearchResultsViewController.m */; };
@@ -78,6 +80,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F8FD842156C277400FF1B27 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appicon.png; path = ../appicon.png; sourceTree = "<group>"; };
+		4F8FD845156C277700FF1B27 /* appicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "appicon@2x.png"; path = "../appicon@2x.png"; sourceTree = "<group>"; };
 		6A3CB05E14CD416800F6F13F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6A3CB06114CD417B00F6F13F /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		6A3CB06214CD417B00F6F13F /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
@@ -287,6 +291,8 @@
 				6AE19C8A14C983E00069CBC7 /* myLocation.gpx */,
 				6A97749314D6A4B500E0E3D5 /* Default@2x.png */,
 				6A97749114D6A4B200E0E3D5 /* Default.png */,
+				4F8FD845156C277700FF1B27 /* appicon@2x.png */,
+				4F8FD842156C277400FF1B27 /* appicon.png */,
 				6A97748F14D69EA800E0E3D5 /* icon@2x.png */,
 				6A97748C14D69EA500E0E3D5 /* icon.png */,
 				6AB0ECB714C6CAA100308C47 /* GeoAlarm-Info.plist */,
@@ -478,6 +484,8 @@
 				D4D8AC9E14EDB19400DD7CA8 /* MapLocationViewLandscapeHighlightedBackgroundImage@2x.png in Resources */,
 				D443AB9F14FB957B00304D5C /* README.txt in Resources */,
 				D443ABA014FB957B00304D5C /* release_notes.txt in Resources */,
+				4F8FD843156C277400FF1B27 /* appicon.png in Resources */,
+				4F8FD846156C277700FF1B27 /* appicon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
